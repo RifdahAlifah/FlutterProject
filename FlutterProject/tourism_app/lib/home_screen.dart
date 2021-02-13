@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Wisata"),
+        title: Text("Wisata", style: TextStyle(fontFamily: "Minnie"),),
       ),
       body: ListView(
         children: tourismList.map((place) {

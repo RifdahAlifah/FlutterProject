@@ -23,7 +23,6 @@ class DetailScreen extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
-
                       IconButton(
                         icon: Icon(Icons.arrow_back),
                         onPressed: (){
@@ -42,7 +41,7 @@ class DetailScreen extends StatelessWidget {
               child: Text(
                 tourisms.name,
                 textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 30.0),
+                style: TextStyle(fontSize: 30.0, fontFamily: "Minnie"),
               ),
             ),
             Container(
