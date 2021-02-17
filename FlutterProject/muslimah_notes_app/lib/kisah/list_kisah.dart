@@ -20,7 +20,7 @@ class ListKisah extends StatelessWidget {
             ],
           ),
           Container(
-            height: 200.0,
+            height: 300.0,
             child: ListView(
                 scrollDirection: Axis.vertical,
                 children: dataListKisah.map((list) {
