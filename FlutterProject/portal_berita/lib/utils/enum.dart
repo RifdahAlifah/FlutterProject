@@ -1,0 +1,1 @@
+enum navBarItem {Home, Portal, Search}
