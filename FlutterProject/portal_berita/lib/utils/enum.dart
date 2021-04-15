@@ -1,1 +1,1 @@
-enum navBarItem {Home, Portal, Search}
+enum NavBarItem {Home, Portal, Search}

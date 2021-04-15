@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginEnd="@dimen/_5dp"
+        app:cardCornerRadius="@dimen/_5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgListItem"
+                android:layout_width="@dimen/_100dp"
+                android:layout_height="@dimen/_100dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtJudulList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginEnd="@dimen/_10dp"
+                android:layout_toEndOf="@id/imgListItem"
+                android:text="@string/judul"
+                android:textSize="@dimen/_16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtHargaList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtJudulList"
+                android:layout_marginStart="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginEnd="@dimen/_10dp"
+                android:layout_toEndOf="@id/imgListItem"
+                android:text="@string/harga"
+                android:textSize="@dimen/_12sp" />
+
+            <TextView
+                android:id="@+id/txtDeskripsiList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHargaList"
+                android:layout_marginStart="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginEnd="@dimen/_10dp"
+                android:layout_toEndOf="@id/imgListItem"
+                android:maxLines="2"
+                android:text="@string/deskripsi"
+                android:textSize="@dimen/_12sp" />
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

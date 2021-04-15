@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FoodCI</string>
+    <string name="judul">Judul</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="harga">Harga</string>
+    <string name="id">Id</string>
+    <string name="save">SAVE</string>
+    <string name="delete">DELETE</string>
+</resources>
